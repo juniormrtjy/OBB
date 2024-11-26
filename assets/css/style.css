@@ -1,0 +1,155 @@
+:root {
+  /* color */
+  --main: #3b82f6 /* BLUE 500 NO TAILWIND COLORS*/;
+
+  /* ALTS */
+  --accent: #115e59;
+  --dark-accent: #022c22;
+  --light-accent: #2dd4bf;
+
+  /* GREY/BLACK */
+  --dark: #0a0a0a;
+  --neutral-900: #171717;
+  --light: #fff;
+
+  /* TEXTS ALT -- IM USING TAILWIND NEUTRAL*/
+  --neutral-800: #262626;
+  --neutral-300: #d4d4d4;
+  --neutral-100: #f5f5f5;
+
+  /* FONT SIZE 
+  - Font sizes (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  */
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-base: 1.6rem;
+  --text-lg: 1.8rem;
+  --text-xl: 2rem;
+  --text-2x1: 2.4rem;
+  --text-3x1: 3rem;
+  --text-3x2: 3.6rem;
+  --text-4x1: 4.4rem;
+  --text-5x1: 5.2rem;
+  --text-6x1: 6.2rem;
+}
+
+/* ========== HEADER ========== */
+#header {
+  background: var(--dark);
+}
+
+#header .title {
+  /* border: 1px solid red; */
+  max-width: 110.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 3.2rem;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Agbalumo';
+  font-size: 6.2rem;
+  color: var(--neutral-100);
+  line-height: 5.7rem;
+}
+.search {
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials {
+  gap: 1rem;
+}
+
+.socials a {
+  font-size: 2.4rem;
+  color: var(--neutral-100);
+}
+
+input[type='search'] {
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  color: var(--dark);
+}
+
+/* NAV */
+nav {
+  justify-content: space-between;
+  max-width: 110.8rem;
+  margin: 0 auto;
+  padding-block: 3.2rem;
+}
+
+nav a {
+  /* color: var(--light); */
+  color: var(--neutral-100);
+  font-weight: 300;
+}
+
+nav .links {
+  font-size: var(--text-lg);
+  gap: 3rem;
+}
+
+/* ========== INTRO ========== */
+.intro--2 {
+  padding: 6.2rem;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: var(--text-3x2);
+}
+
+.intro p {
+  font-size: var(--text-base);
+}
+
+/* ========== POSTS ========== */
+.feed {
+  gap: 2.2rem;
+}
+
+.feed .box {
+  min-height: 51.2rem;
+}
+
+.feed img {
+  object-fit: cover;
+  height: 22rem;
+}
+
+.feed h3 {
+  color: var(--neutral-900);
+
+  font-size: var(--text-2x1);
+}
+
+.feed .description {
+  color: var(--neutral-800);
+  font-size: var(--text-base);
+}
+
+.info {
+  padding: 2.4rem;
+  border: 1px solid var(--neutral-300);
+  /* gap: 1.2rem; */
+  height: 30rem;
+}
+
+.info hr {
+  border: none;
+  height: 1px;
+  background-color: var(--neutral-800);
+}
+
+.info .author {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-base);
+}
