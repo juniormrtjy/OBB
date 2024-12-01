@@ -8,15 +8,20 @@
   /* color */
   --main: #3b82f6 /* BLUE 500 NO TAILWIND COLORS*/;
 
-  /* ALTS
+  /* ALTS */
   --accent: #115e59;
   --dark-accent: #022c22;
-  --light-accent: #2dd4bf; */
+  --light-accent: #2dd4bf;
 
   /* GREY/BLACK */
   --dark: #0a0a0a;
-  --dark-grey: #171717;
+  --neutral-900: #171717;
   --light: #fff;
+
+  /* TEXTS ALT -- IM USING TAILWIND NEUTRAL*/
+  --neutral-800: #262626;
+  --neutral-300: #d4d4d4;
+  --neutral-100: #f5f5f5;
 
   /* FONT SIZE 
   - Font sizes (px)
@@ -53,7 +58,7 @@ body {
   font-size: var(--text-base);
   font-weight: 400;
   line-height: 1.75;
-  color: var(--dark-grey);
+  color: var(--neutral-800);
 
   /* padding: 0 3.2rem; */
   padding-bottom: 3rem;
@@ -61,7 +66,7 @@ body {
 
 /* --------- RESET --------- */
 p {
-  color: var(--dark-grey);
+  color: var(--neutral-900);
   font-size: var(--text-lg);
 }
 
